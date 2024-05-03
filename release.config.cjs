@@ -1,3 +1,6 @@
+/**
+ * @type {import('semantic-release').GlobalConfig}
+ */
 module.exports = {
     "plugins": [
         "@semantic-release/commit-analyzer",
@@ -14,12 +17,7 @@ module.exports = {
                 changelogFile: "CHANGELOG.md",
             },
         ],
-        ["@semantic-release/npm",
-            {
-                npmPublish: true,
-                pkgRoot: "dist/**",
-            }
-        ],
+        "@semantic-release/npm",
         [
             "@semantic-release/git",
             {
