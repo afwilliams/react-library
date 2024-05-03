@@ -1,6 +1,6 @@
 {
   "name": "afwilliams-simple-react",
-  "version": "0.0.0",
+  "version": "1.7.0",
   "type": "module",
   "main": "./dist/afwilliams-simple-react.umd.cjs",
   "module": "./dist/afwilliams-simple-react.js",
