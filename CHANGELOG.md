@@ -1,3 +1,10 @@
+# [1.13.0](https://github.com/afwilliams/react-library/compare/v1.12.0...v1.13.0) (2024-05-03)
+
+
+### Features
+
+* fix package.json ([6c243bc](https://github.com/afwilliams/react-library/commit/6c243bcb1891d55503de3fccf72ad1d86b7a103d))
+
 # [1.12.0](https://github.com/afwilliams/react-library/compare/v1.11.0...v1.12.0) (2024-05-03)
 
 
