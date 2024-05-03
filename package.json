@@ -20,10 +20,16 @@
     "prepublishOnly": "npm run build && copyfiles ./package.json .dist/"
   },
   "peerDependencies": {
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "@mui/material": "^5.15.16",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "@mui/material": "^5.15.16",
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/git": "^10.0.1",
     "@types/node": "^20.12.8",
@@ -39,6 +45,7 @@
     "glob": "^10.3.12",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "sass": "^1.76.0",
     "semantic-release": "^23.0.8",
     "typescript": "^5.2.2",
     "vite": "^5.2.0",

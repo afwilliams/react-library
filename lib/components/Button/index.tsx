@@ -1,8 +1,14 @@
-// eslint-disable-next-line @typescript-eslint/ban-ts-comment
-// @ts-expect-error
-import styles from './styles.module.css'
+import './button.scss'
 
-export function Button(props: React.ButtonHTMLAttributes<HTMLButtonElement>) {
-    const { className, ...restProps } = props
-    return <button className={`${className} ${styles.button}`} {...restProps} />
+import Stack from '@mui/material/Stack';
+import Button from '@mui/material/Button';
+
+export function LibButtons() {
+    return (
+        <Stack spacing={2} direction="row">
+            <Button className="btn" variant="text">Text</Button>
+            <Button variant="contained">Contained</Button>
+            <Button variant="outlined">Outlined</Button>
+        </Stack>
+    );
 }
