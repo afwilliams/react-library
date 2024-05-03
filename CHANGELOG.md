@@ -1,3 +1,10 @@
+# [1.12.0](https://github.com/afwilliams/react-library/compare/v1.11.0...v1.12.0) (2024-05-03)
+
+
+### Features
+
+* fix secret token ([582e1be](https://github.com/afwilliams/react-library/commit/582e1be396fec11fa3e49fe4899179d51c2bcf58))
+
 # [1.11.0](https://github.com/afwilliams/react-library/compare/v1.10.0...v1.11.0) (2024-05-03)
 
 
