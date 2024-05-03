@@ -1,3 +1,10 @@
+# [1.8.0](https://github.com/afwilliams/react-library/compare/v1.7.0...v1.8.0) (2024-05-03)
+
+
+### Features
+
+* config lib ([165d132](https://github.com/afwilliams/react-library/commit/165d13269c2588964e0f2d41331262ea2bc3171a))
+
 # [1.7.0](https://github.com/afwilliams/react-library/compare/v1.6.0...v1.7.0) (2024-05-03)
 
 
