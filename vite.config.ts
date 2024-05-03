@@ -6,6 +6,7 @@ import {glob} from 'glob'
 
 import dts from 'vite-plugin-dts'
 import {libInjectCss} from 'vite-plugin-lib-inject-css'
+import cssInjectedByJsPlugin from "vite-plugin-css-injected-by-js";
 
 import react from '@vitejs/plugin-react'
 
@@ -15,17 +16,19 @@ export default defineConfig({
         react(),
         libInjectCss(),
         dts({include: ['lib']}),
+        cssInjectedByJsPlugin()
     ],
     build: {
         copyPublicDir: false,
         lib: {
             entry: resolve(__dirname, 'lib/main.ts'),
-            formats: ['es']
+            name: "simple-react",
+            fileName: "simple-react"
         },
         rollupOptions: {
             external: ['react', 'react/jsx-runtime'],
-            input: Object.fromEntries(
-                glob.sync('lib/**/*.{ts,tsx}').map(file => [
+            /*input: Object.fromEntries(
+                glob.sync('lib/!**!/!*.{ts,tsx}').map(file => [
                     // The name of the entry point
                     // lib/nested/foo.ts becomes nested/foo
                     relative(
@@ -36,10 +39,13 @@ export default defineConfig({
                     // lib/nested/foo.ts becomes /project/lib/nested/foo.ts
                     fileURLToPath(new URL(file, import.meta.url))
                 ])
-            ),
+            ),*/
             output: {
-                assetFileNames: 'assets/[name][extname]',
-                entryFileNames: '[name].js',
+               /* assetFileNames: 'assets/[name][extname]',
+                entryFileNames: '[name].js',*/
+                globals: {
+                    react: "React",
+                },
             }
         }
     }
