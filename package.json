@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "type": "module",
   "main": "./dist/simple-react.umd.cjs",
-  "types": "dist/main.d.ts",
+  "module": "./dist/simple-react.js",
+  "types": "./dist/main.d.ts",
   "files": [
     "dist"
   ],
