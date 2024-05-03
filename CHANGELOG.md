@@ -1,3 +1,10 @@
+# [1.11.0](https://github.com/afwilliams/react-library/compare/v1.10.0...v1.11.0) (2024-05-03)
+
+
+### Features
+
+* add token and npmrc for publish in registry npm of github ([c1bf799](https://github.com/afwilliams/react-library/commit/c1bf799b1e5e938c1ca735595b4dfc7ad8af239d))
+
 # [1.10.0](https://github.com/afwilliams/react-library/compare/v1.9.0...v1.10.0) (2024-05-03)
 
 
