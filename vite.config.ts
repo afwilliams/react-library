@@ -22,8 +22,8 @@ export default defineConfig({
         copyPublicDir: false,
         lib: {
             entry: resolve(__dirname, 'lib/main.ts'),
-            name: "simple-react",
-            fileName: "simple-react"
+            name: "afwilliams-simple-react",
+            fileName: "afwilliams-simple-react"
         },
         rollupOptions: {
             external: ['react', 'react/jsx-runtime'],
