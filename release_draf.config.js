@@ -14,11 +14,12 @@ module.exports = {
                 changelogFile: "CHANGELOG.md",
             },
         ],
-        "@semantic-release/npm",
-        {
-            npmPublish: true,
-            pkgRoot: "dist/**",
-        },
+        ["@semantic-release/npm",
+            {
+                npmPublish: true,
+                pkgRoot: "dist/**",
+            }
+        ],
         [
             "@semantic-release/git",
             {
