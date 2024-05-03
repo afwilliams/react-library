@@ -1,3 +1,11 @@
+# [1.10.0](https://github.com/afwilliams/react-library/compare/v1.9.0...v1.10.0) (2024-05-03)
+
+
+### Features
+
+* add registry ([3918d31](https://github.com/afwilliams/react-library/commit/3918d31afc89f8c6999c8b4ed41889c6f992c8ce))
+* merge ([d2d5ef8](https://github.com/afwilliams/react-library/commit/d2d5ef8b99dfcd285f249a38796d0be5df42b6b7))
+
 # [1.9.0](https://github.com/afwilliams/react-library/compare/v1.8.0...v1.9.0) (2024-05-03)
 
 
