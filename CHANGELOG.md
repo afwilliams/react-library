@@ -1,3 +1,10 @@
+# [1.14.0](https://github.com/afwilliams/react-library/compare/v1.13.0...v1.14.0) (2024-05-03)
+
+
+### Features
+
+* only github token ([6d881f5](https://github.com/afwilliams/react-library/commit/6d881f58ea4947ed1c61ef992367857077d3b378))
+
 # [1.13.0](https://github.com/afwilliams/react-library/compare/v1.12.0...v1.13.0) (2024-05-03)
 
 
