@@ -2,9 +2,11 @@
   "name": "afwilliams-simple-react",
   "version": "1.7.0",
   "type": "module",
-  "main": "./dist/afwilliams-simple-react.umd.cjs",
-  "module": "./dist/afwilliams-simple-react.js",
-  "types": "./dist/main.d.ts",
+  "main": "dist/main.js",
+  "types": "dist/main.d.ts",
+  "//": "main: ./dist/afwilliams-simple-react.umd.cjs",
+  "//": "module: ./dist/afwilliams-simple-react.js",
+  "//": "types: ./dist/main.d.ts",
   "files": [
     "dist"
   ],
