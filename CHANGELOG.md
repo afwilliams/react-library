@@ -1,3 +1,10 @@
+# [1.9.0](https://github.com/afwilliams/react-library/compare/v1.8.0...v1.9.0) (2024-05-03)
+
+
+### Features
+
+* config main ([fd01062](https://github.com/afwilliams/react-library/commit/fd010620416a6513b82887e7b79f413cbd6718c3))
+
 # [1.8.0](https://github.com/afwilliams/react-library/compare/v1.7.0...v1.8.0) (2024-05-03)
 
 
